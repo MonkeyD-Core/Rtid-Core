@@ -9,7 +9,7 @@ DOWNLOAD
 Useful links
 ============
 
-* Mining Pool:    http://pool.rtidcoin.com fee 0%. (sooon)
+* Mining Pool:    http://pool.rtidcoin.com fee 0%. (soon)
 * BlockExplorer:  http://explorer.rtidcoin.com/  (soon)
 
 * RoadMap:        http://rtidcoin.com/roadmap/
