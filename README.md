@@ -1,31 +1,30 @@
 DOWNLOAD
 ========
 
-* Rtidcoin [RTID] Source code on github https://github.com/rtidcoin/rtidcoin-core
-* Rtidcoin [RTID] Download Releases https://github.com/rtidcoin/rtidcoin-core/releases/
+* Rtidcoin [RTID] Source code on github https://github.com/rtidproject/Rtid-core
+* Rtidcoin [RTID] Download Releases https://github.com/rtidproject/Rtid-core/releases/
 * Algo YeSPoWer 
 
 
 Useful links
 ============
 
-* Mining Pool:    http://pool.rtidcoin.io fee 0%.
-* BlockExplorer:  http://explorer.rtidcoin.io/
+* Mining Pool:    http://pool.rtidcoin.com fee 0%. (soon)
+* BlockExplorer:  http://explorer.rtidcoin.com/  (soon)
 
-* RoadMap:        http://rtidcoin.io/roadmap/
-* Website:        http://rtidcoin.io/
+* RoadMap:        http://rtidcoin.com/roadmap/
+* Website:        http://rtidcoin.com/
 
-* Twitter:        https://twitter.com/rtidcoin_io
+* Twitter:        https://twitter.com/rtid_core
 * Telegram   :    http://t.me/rtidcoin
-* Telegram/RU:    http://t.me/rtidcoinru
-* Telegram/ES:    http://t.me/rtidcoines
-* Telegram/DE:    http://t.me/rtidcoinde
+* Telegram/ID:    http://t.me/rtidcoinid
 
 
 Rtidcoin Core integration/staging tree
 =====================================
 
-* Copyright (c) 2017-2019 Rtidcoin Core Developers
+* Copyright (c) 2020 Rtidcoin Core Developers
+* Copyright (c) 2017-2019 Cranepay Core Developers
 * Copyright (c) 2009-2018 Bitcoin Core Developers
 * Copyright (c) 2013-2017 Dash Developers (DarkGravityWave3)
 * Copyright (c) 2014-2018 Alexander Peslyak (YesPoWer Original)
@@ -76,7 +75,7 @@ Development Process
 -------------------
 
 The `master` branch is regularly built and tested, but is not guaranteed to be
-completely stable. [Tags](https://github.com/rtidcoin/rtidcoin-core/tags) are created
+completely stable. [Tags](https://github.com/rtidproject/Rtid-core/tags) are created
 regularly to indicate new official, stable release versions of RtidCoin Core.
 
 Testing
@@ -87,11 +86,6 @@ requests than we can review and test on short notice. Please be patient and help
 other people's pull requests, and remember this is a security-critical project where any mistake might cost people
 lots of money.
 
-Translations
-------------
-
-Changes to translations as well as new translations can be submitted to
-[RtidCoin Core's crane-locale repository](https://github.com/rtidcoin/core-locale).
 
 **Important**: We do not accept translation changes as GitHub pull requests in main repository.
 
