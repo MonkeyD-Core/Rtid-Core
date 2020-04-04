@@ -76,10 +76,10 @@ public:
     CMainParams() {
         strNetworkID = "main";
         consensus.nSubsidyHalvingInterval = 1000000;
-        consensus.BIP34Height = 1234567;
-        consensus.BIP34Hash = uint256S("0x0000012e8bd27f12a29f3433086c04e54d9348bc8c405a7084849a1d053134ef");
-        consensus.BIP65Height = 1234567; 
-        consensus.BIP66Height = 1234567; 
+        consensus.BIP34Height = 0;
+        consensus.BIP34Hash = uint256S();
+        consensus.BIP65Height = 0; 
+        consensus.BIP66Height = 0; 
         consensus.powLimit = uint256S("0x3fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
         consensus.nPowTargetTimespan = 14 * 24 * 60 * 60; // two weeks
         consensus.nPowTargetSpacing = 30;
@@ -153,21 +153,14 @@ public:
 
         checkpointData = {
           {
-            { 10000, uint256S("0x0000000782efe18d8601e867c401d1ead4af473c79ea39e06412f6967a1833e7")},
-            { 100000, uint256S("0x0000001820cfbb32692683ceb1e20679d9a86d3e15c393857d81eb1f749f7a77")},
-            { 222222, uint256S("0x00000068f4b0ca3fdda0612aa42076729319a3da00667bf04bbe82742d2c016e")},
-            { 333333, uint256S("0x0000000eb14d47ee30855e8546e6d257a058ede5034040cfccd36e24c1bc0d00")},
-            { 555555, uint256S("0x0000003579f63c0d15bad3f61611b8e59ac2c43431506c865bc934e9900a63b1")},
-            { 777777, uint256S("0x0000008e8dd819dac586ec258ff510ba72e1ff934d3ba15f3300ca5d3362d0aa")},
-            { 888888, uint256S("0x00000194675fb6a28db6a2326cf9ccc693e45d441edfe904401e92b16d07fb58")},
-          }
+            }
         };
 
         chainTxData = ChainTxData{
             // Data from rpc: getchaintxstats 4096 00000194675fb6a28db6a2326cf9ccc693e45d441edfe904401e92b16d07fb58
             /* nTime    */ 1546559631,
-            /* nTxCount */ 1337841,
-            /* dTxRate  */ 0.04138554024238161
+            /* nTxCount */0,
+            /* dTxRate  */ 0.0
         };
 
         /* TODO disable fallback fee on mainnet */
@@ -183,10 +176,10 @@ public:
     CTestNetParams() {
         strNetworkID = "test";
         consensus.nSubsidyHalvingInterval = 1000000;
-        consensus.BIP34Height = 1000000;
-        consensus.BIP34Hash = uint256S("0x0000012e8bd27f12a29f3433086c04e54d9348bc8c405a7084849a1d053134ef");
-        consensus.BIP65Height = 1000000;
-        consensus.BIP66Height = 1000000; 
+        consensus.BIP34Height = 0;
+        consensus.BIP34Hash = uint256S();
+        consensus.BIP65Height = 0;
+        consensus.BIP66Height = 0; 
         consensus.powLimit = uint256S("0x3fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
         consensus.nPowTargetTimespan = 14 * 24 * 60 * 60; // two weeks
         consensus.nPowTargetSpacing = 30;
@@ -256,7 +249,7 @@ public:
         chainTxData = ChainTxData{
             // Data from rpc: getchaintxstats 4096 0000000000000037a8cd3e06cd5edbfe9dd1dbcc5dacab279376ef7cfc2b4c75
             /* nTime    */ 1531929919,
-            /* nTxCount */ 19438708,
+            /* nTxCount */ 0,
             /* dTxRate  */ 0.626
         };
 
